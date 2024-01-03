@@ -6,8 +6,10 @@ const PrimaryDash = () => {
     return (
         <>
             <Paper>
-                <h1>Primary Dashboard</h1>
+                <h1 >Primary Dashboard</h1>
                 <Header />
+                <Sidebar />
+                <Sidebar />
                 <Sidebar />
                 <TransactionBar />
             </Paper>

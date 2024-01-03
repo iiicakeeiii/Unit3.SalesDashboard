@@ -7,7 +7,9 @@ function App() {
 
   return (
       <>
-          <PrimaryDash />
+          <div className="w-screen">
+              <PrimaryDash />
+          </div>
       </>
   )
 }
