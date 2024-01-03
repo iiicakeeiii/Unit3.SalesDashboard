@@ -1,14 +1,15 @@
 import { useState } from 'react'
-import './App.css'
+import PrimaryDash from "./components/PrimaryDash.jsx";
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-
-    </>
+      <>
+          <PrimaryDash />
+      </>
   )
 }
 
-export default App
+export default App;
